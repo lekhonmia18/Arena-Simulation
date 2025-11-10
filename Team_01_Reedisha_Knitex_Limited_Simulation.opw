@@ -1,0 +1,56 @@
+[RESOURCES]
+Plain Machine
+Human Operator
+Flatlock Machine
+Overlock Machine
+[VARIABLES]
+Labeling.NumberIn
+Lavel Top Stitch.NumberIn
+Neck Rib Servicing.NumberIn
+Quality Check2.NumberIn
+Sleeve Hem.NumberIn
+Body Hem.NumberIn
+Side Seam 1.NumberOut
+Side Seam 1.NumberIn
+Side Seam 4.NumberOut
+Side Seam 3.NumberIn
+Lavel Top Stitch.NumberOut
+Shoulder Joint 1.NumberIn
+Sleeve Joint 2.NumberOut
+Back Top Joint.NumberIn
+Arrival of garments from cutting section.NumberOut
+Sleeve Joint 2.NumberIn
+Dispose 1.NumberOut
+Sleeve Joint 4.NumberIn
+Label Tuck.NumberOut
+Cuff Tuck.NumberIn
+Labeling.NumberOut
+Label Tuck.NumberIn
+Quality Check1.NumberIn
+Quality Check2.NumberOut
+Side Seam 3.NumberOut
+Shoulder Joint 2.NumberOut
+Sleeve Joint 4.NumberOut
+Cuff Tuck.NumberOut
+Neck Joint.NumberOut
+Opening Tuck.NumberOut
+Side Seam 2.NumberIn
+Side Seam 4.NumberIn
+Back Top Joint.NumberOut
+Sleeve Joint 1.NumberOut
+Neck Joint.NumberIn
+Shoulder Joint 2.NumberIn
+Neck Tuck.NumberIn
+Neck Top Stitch.NumberOut
+Neck Tuck.NumberOut
+Quality Check1.NumberOut
+Side Seam 2.NumberOut
+Neck Rib Servicing.NumberOut
+Shoulder Joint 1.NumberOut
+Sleeve Hem.NumberOut
+Sleeve Joint 1.NumberIn
+Sleeve Joint 3.NumberIn
+Neck Top Stitch.NumberIn
+Body Hem.NumberOut
+Opening Tuck.NumberIn
+Sleeve Joint 3.NumberOut

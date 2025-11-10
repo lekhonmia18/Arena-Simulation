@@ -1,0 +1,119 @@
+
+                                      ARENA Simulation Results
+                                     ASUS - License: 7328734345
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 3/ 9/2024
+Analyst: Rockwell Automation                                         Model revision date: 3/ 9/2024
+
+Replication ended at time      : 8.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             .03274     5.4678E-04 .02725     .09248        413    
+Entity 1.NVATime                            .00000     .00000     .00000     .00000        413    
+Entity 1.WaitTime                           3.5599     (Corr)     .04988     7.1745        413    
+Entity 1.TranTime                           .00000     .00000     .00000     .00000        413    
+Entity 1.OtherTime                          .00000     .00000     .00000     .00000        413    
+Entity 1.TotalTime                          3.5926     (Corr)     .08174     7.2059        413    
+Shoulder Joint 2.Queue.WaitingTime          .03532     (Insuf)    .00192     .04436        212    
+Back Top Joint.Queue.WaitingTime            1.8257E-04 4.0354E-05 .00000     .00193        487    
+Hold 3.Queue.WaitingTime                        --         --         --         --          0
+Labeling.Queue.WaitingTime                  .00551     3.1644E-04 .00000     .01158       1760    
+Sleeve Joint 4.Queue.WaitingTime            .04289     (Insuf)    .03482     .05096         70    
+Hold 4.Queue.WaitingTime                        --         --         --         --          0
+Side Seam 1.Queue.WaitingTime               .03455     (Insuf)    .01796     .04359        144    
+Neck Tuck.Queue.WaitingTime                 1.5854E-04 (Corr)     .00000     .00183        490    
+Cuff Tuck.Queue.WaitingTime                 1.1391E-05 7.3609E-06 .00000     9.7435E-04    414    
+Lavel Top Stitch.Queue.WaitingTime          4.3315E-05 1.8959E-05 .00000     .00165        487    
+Neck Rib Servicing.Queue.WaitingTime        .03958     (Corr)     .01513     .05331        487    
+Sleeve Joint 1.Queue.WaitingTime            .03664     (Insuf)    .00396     .04919        141    
+Side Seam 2.Queue.WaitingTime               .03487     (Insuf)    .02682     .04527        137    
+Quality Check1.Queue.WaitingTime            2.0960E-04 1.2279E-04 .00000     .01027        413    
+Opening Tuck.Queue.WaitingTime              6.3776E-05 3.1449E-05 .00000     .00189        487    
+Neck Joint.Queue.WaitingTime                .03878     (Corr)     .01200     .05322        491    
+Hold 1.Queue.WaitingTime                    3.4861     (Corr)     .00178     7.2021        425    
+Sleeve Joint 2.Queue.WaitingTime            .03635     (Insuf)    .00688     .04542        141    
+Side Seam 3.Queue.WaitingTime               .03534     (Insuf)    .02748     .04483        133    
+Sleeve Hem.Queue.WaitingTime                3.0680E-04 5.5392E-05 .00000     .00219        425    
+Quality Check2.Queue.WaitingTime                --         --         --         --          0
+Body Hem.Queue.WaitingTime                  1.7382E-04 3.5446E-05 .00000     .00173        413    
+Sleeve Joint 3.Queue.WaitingTime            .03612     (Insuf)    .01095     .04510        141    
+Side Seam 4.Queue.WaitingTime                   --         --         --         --          0
+Shoulder Joint 1.Queue.WaitingTime          .03522     (Insuf)    .00000     .04451        213    
+Hold 2.Queue.WaitingTime                        --         --         --         --          0
+Label Tuck.Queue.WaitingTime                7.7441E-05 1.8134E-05 .00000     .00175        487    
+Neck Top Stitch.Queue.WaitingTime           3.1368E-04 (Corr)     .00000     .00199        487    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                969.51     (Corr)     .00000     1374.0     1347.0    
+Plain Machine.NumberBusy                    .40158     (Corr)     .00000     1.0000     1.0000    
+Plain Machine.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Plain Machine.Utilization                   .40158     (Corr)     .00000     1.0000     1.0000    
+Human Operator.NumberBusy                   .08728     .01256     .00000     1.0000     .00000    
+Human Operator.NumberScheduled              1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Human Operator.Utilization                  .08728     .01256     .00000     1.0000     .00000    
+Flatlock Machine.NumberBusy                 .28100     .00425     .00000     1.0000     .00000    
+Flatlock Machine.NumberScheduled            1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Flatlock Machine.Utilization                .28100     .00425     .00000     1.0000     .00000    
+Overlock Machine.NumberBusy                 .99998     (Insuf)    .00000     1.0000     1.0000    
+Overlock Machine.NumberScheduled            1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Overlock Machine.Utilization                .99998     (Insuf)    .00000     1.0000     1.0000    
+Shoulder Joint 2.Queue.NumberInQueue        .93989     .00332     .00000     1.0000     1.0000    
+Back Top Joint.Queue.NumberInQueue          .01111     (Insuf)    .00000     1.0000     .00000    
+Hold 3.Queue.NumberInQueue                  .00000     (Insuf)    .00000     .00000     .00000    
+Labeling.Queue.NumberInQueue                1.2129     .51912     .00000     80.000     .00000    
+Sleeve Joint 4.Queue.NumberInQueue          .37561     (Insuf)    .00000     2.0000     1.0000    
+Hold 4.Queue.NumberInQueue                  .00000     (Insuf)    .00000     .00000     .00000    
+Side Seam 1.Queue.NumberInQueue             .62570     (Insuf)    .00000     1.0000     1.0000    
+Neck Tuck.Queue.NumberInQueue               .00971     (Insuf)    .00000     1.0000     .00000    
+Cuff Tuck.Queue.NumberInQueue               5.8950E-04 (Insuf)    .00000     1.0000     .00000    
+Lavel Top Stitch.Queue.NumberInQueue        .00264     (Insuf)    .00000     1.0000     .00000    
+Neck Rib Servicing.Queue.NumberInQueue      2.4225     (Corr)     .00000     5.0000     3.0000    
+Sleeve Joint 1.Queue.NumberInQueue          .64959     (Insuf)    .00000     1.0000     1.0000    
+Side Seam 2.Queue.NumberInQueue             .59713     (Insuf)    .00000     1.0000     .00000    
+Quality Check1.Queue.NumberInQueue          .01082     (Insuf)    .00000     1.0000     .00000    
+Opening Tuck.Queue.NumberInQueue            .00388     (Insuf)    .00000     1.0000     .00000    
+Neck Joint.Queue.NumberInQueue              2.3849     (Insuf)    .00000     5.0000     2.0000    
+Hold 1.Queue.NumberInQueue                  955.64     (Corr)     .00000     1361.0     1333.0    
+Sleeve Joint 2.Queue.NumberInQueue          .64240     (Insuf)    .00000     1.0000     1.0000    
+Side Seam 3.Queue.NumberInQueue             .58856     (Insuf)    .00000     1.0000     1.0000    
+Sleeve Hem.Queue.NumberInQueue              .01630     .00252     .00000     1.0000     .00000    
+Quality Check2.Queue.NumberInQueue          .00000     (Insuf)    .00000     .00000     .00000    
+Body Hem.Queue.NumberInQueue                .00897     (Insuf)    .00000     1.0000     .00000    
+Sleeve Joint 3.Queue.NumberInQueue          .63653     (Insuf)    .00000     1.0000     .00000    
+Side Seam 4.Queue.NumberInQueue             .00000     (Insuf)    .00000     .00000     .00000    
+Shoulder Joint 1.Queue.NumberInQueue        .93957     .00292     .00000     1.0000     1.0000    
+Hold 2.Queue.NumberInQueue                  .00000     (Insuf)    .00000     .00000     .00000    
+Label Tuck.Queue.NumberInQueue              .00471     (Insuf)    .00000     1.0000     .00000    
+Neck Top Stitch.Queue.NumberInQueue         .01910     (Corr)     .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           1760.0    
+Entity 1.NumberOut                          413.00    
+Plain Machine.NumberSeized                  2365.0    
+Plain Machine.ScheduledUtilization          .40158    
+Human Operator.NumberSeized                 2173.0    
+Human Operator.ScheduledUtilization         .08728    
+Flatlock Machine.NumberSeized               1812.0    
+Flatlock Machine.ScheduledUtilization       .28100    
+Overlock Machine.NumberSeized               2310.0    
+Overlock Machine.ScheduledUtilization       .99998    
+System.NumberOut                            413.00    
+
+
+Simulation run time: 0.10 minutes.
+Simulation run complete.
